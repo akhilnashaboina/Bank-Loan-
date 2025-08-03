@@ -21,55 +21,39 @@ This project focuses on analyzing a bank's lending operations and visualizing ke
 - Provide an interactive dashboard for real-time insights and filtering capabilities.
 
 ### 📂 Project Structure
-Data Source: Simulated bank loan dataset containing details such as:
+1. Data Source: Simulated bank loan dataset containing details such as:
 
-Loan ID, Purpose, Home Ownership, Grade, Issue Date
+- Loan ID, Purpose, Home Ownership, Grade, Issue Date
+- Loan Amount, Installment, Interest Rate, Debt-to-Income Ratio (DTI)
+- Loan Status (Fully Paid, Charged Off, Current), Total Payment
 
-Loan Amount, Installment, Interest Rate, Debt-to-Income Ratio (DTI)
+2. Data Analysis (SQL):
 
-Loan Status (Fully Paid, Charged Off, Current), Total Payment
+- Data cleaning and KPI calculations.
+- Monthly trends, MTD/PMTD comparisons.
+- Good vs. Bad loan classification.
+- Loan performance segmented by state, loan term, purpose, and borrower characteristics.
 
-Data Analysis (SQL):
+3. Dashboard Creation (Tableau):
 
-Data cleaning and KPI calculations.
-
-Monthly trends, MTD/PMTD comparisons.
-
-Good vs. Bad loan classification.
-
-Loan performance segmented by state, loan term, purpose, and borrower characteristics.
-
-Dashboard Creation (Tableau):
-
-Summary Dashboard: Key KPIs, Good vs. Bad Loan distribution, Loan Status grid.
-
-Overview Dashboard: Trends by month, regional distribution, borrower profiles.
-
-Details Dashboard: Granular transaction-level view for further exploration.
+- Summary Dashboard: Key KPIs, Good vs. Bad Loan distribution, Loan Status grid.
+- Overview Dashboard: Trends by month, regional distribution, borrower profiles.
+- Details Dashboard: Granular transaction-level view for further exploration.
 
 ### 🛠 Tools Used
 SQL – Data extraction, transformation, KPI calculations
-
 Tableau – Interactive dashboards and visual analytics
-
 Excel/CSV – Initial dataset storage and preparation
 
 ### 📊 Key Insights & Outcomes
-38.6K total loan applications analyzed with over $435M funded.
-
-Good loans (Fully Paid + Current) accounted for 86.2% of the portfolio, while Bad loans (Charged Off) stood at 13.8%.
-
-Highest loan purposes: Debt consolidation and credit card refinancing.
-
-Regional trends: States like California and Texas had the highest loan volumes.
-
-Borrowers with 10+ years of employment had the most approved applications.
-
-Month-over-month growth of 6.9% in applications and 13% in funded amount indicated a positive lending trend.
+- 38.6K total loan applications analyzed with over $435M funded.
+- Good loans (Fully Paid + Current) accounted for 86.2% of the portfolio, while Bad loans (Charged Off) stood at 13.8%.
+- Highest loan purposes: Debt consolidation and credit card refinancing.
+- Regional trends: States like California and Texas had the highest loan volumes.
+- Borrowers with 10+ years of employment had the most approved applications.
+- Month-over-month growth of 6.9% in applications and 13% in funded amount indicated a positive lending trend.
 
 ### 🚀 Future Enhancements
-Automate data updates via ETL pipelines.
-
-Implement predictive modeling for loan default risk.
-
-Deploy dashboard to Tableau Server or Power BI Service for wider accessibility.
+- Automate data updates via ETL pipelines.
+- Implement predictive modeling for loan default risk.
+- Deploy dashboard to Tableau Server or Power BI Service for wider accessibility.
