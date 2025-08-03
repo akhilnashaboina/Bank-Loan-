@@ -14,15 +14,11 @@ BANK LOAN REPORT | DETAILS
 This project focuses on analyzing a bank's lending operations and visualizing key performance indicators (KPIs) related to loan applications, funded amounts, repayments, and borrower profiles. Using SQL for data processing and Tableau for visualization, this report helps stakeholders track lending performance, identify trends, and make informed, data-driven decisions.
 
 ### 🎯 Objectives
-Build an end-to-end reporting solution for bank loan data.
-
-Monitor Total Loan Applications, Funded Amounts, Amounts Received, and Borrower Risk Metrics.
-
-Evaluate Good Loans vs. Bad Loans to assess portfolio quality.
-
-Identify patterns based on Loan Terms, Purposes, Employment Length, and Regional Distribution.
-
-Provide an interactive dashboard for real-time insights and filtering capabilities.
+- Build an end-to-end reporting solution for bank loan data.
+- Monitor Total Loan Applications, Funded Amounts, Amounts Received, and Borrower Risk Metrics.
+- Evaluate Good Loans vs. Bad Loans to assess portfolio quality.
+- Identify patterns based on Loan Terms, Purposes, Employment Length, and Regional Distribution.
+- Provide an interactive dashboard for real-time insights and filtering capabilities.
 
 ### 📂 Project Structure
 Data Source: Simulated bank loan dataset containing details such as:
