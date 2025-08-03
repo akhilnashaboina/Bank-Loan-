@@ -42,7 +42,9 @@ This project focuses on analyzing a bank's lending operations and visualizing ke
 
 ### 🛠 Tools Used
 SQL – Data extraction, transformation, KPI calculations
+
 Tableau – Interactive dashboards and visual analytics
+
 Excel/CSV – Initial dataset storage and preparation
 
 ### 📊 Key Insights & Outcomes
